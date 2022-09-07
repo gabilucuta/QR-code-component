@@ -1,0 +1,65 @@
+/* White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%) */
+
+*
+{
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    font-family: 'Outfit',sans-serif;
+    box-sizing: border-box;
+}
+
+body
+{
+    
+    background-color: hsl(219, 27%, 88%);
+    text-align: center;
+}
+
+.secondContainer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.large{
+    font-weight: 700;
+    padding: 5px 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+    
+}
+
+.small{
+    font-weight: 400;
+    font-size: 13px;
+    padding: 5px 15px;
+    padding-bottom: 20px;
+    color: #828d97;
+    
+}
+
+.container
+{
+    max-width: 240px;
+    height: auto;
+    background: white;
+    text-align: center;
+    border-radius: 20px;
+    margin: 10%;
+    box-shadow: 1px 1px 20px;
+
+}
+
